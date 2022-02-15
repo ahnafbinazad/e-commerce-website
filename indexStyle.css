@@ -1,0 +1,93 @@
+
+
+html,body {
+    padding: 0;
+    margin: 0;
+    max-width: 96.25vw;
+    
+}
+
+.text {
+    position: relative;
+    left: 5%;
+    margin-right: 7.5%;
+}
+
+
+br {
+    display: block;
+    margin: 20px;
+}
+
+
+/*APPLE*/
+
+#apple {
+    background-color: #CCF1FF;
+    overflow: hidden;
+    width: 100%;
+    padding:20px;
+    margin:0;
+    left: 0;
+    
+    
+}
+
+#appleMain {
+    float:left;
+    width: 40%;
+    
+}
+
+
+
+#appleText {
+    position: relative;
+    top: 100px;
+    
+}
+
+
+/*BANANA*/
+
+#banana {
+    background-color: #E0D7FF;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    left: 0;
+    
+    
+}
+
+#bananaMain {
+    float:left;
+    width: 40%;
+}
+
+#bananaText {
+    position: relative;
+    top: 100px;
+}
+
+/*MANGO*/
+
+#mango {
+    background-color: #FAFFC7;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    margin-top:10px;
+    left: 0;
+    
+    
+}
+
+#mangoMain {
+    float:left;
+    width: 40%;
+}
+
+
+

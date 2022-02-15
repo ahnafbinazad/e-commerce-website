@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        
+        <link rel="stylesheet" href="indexStyle.css">
+        
+        <link rel="stylesheet" href="navAndTop.css">
+        
+        <script src="buttonAndPreferences.js" defer></script>
+
+        
+        <title>Citrus</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ahnaf Bin Azad">
+        <meta name="keywords" content="shopping, e-commerce, fruits, food, cheap fruits">
+        <meta name="description" content="an e-commerce website selling fruits">
+        
+        <div id="navigation">
+        <ul  class="nav">
+            <li><a href='Index.html' >Home</a></li>
+            <li><a href='applePage.html' >Apple</a></li>
+            <li><a href='mangoPage.html' >Mango</a></li>
+            <li><a href ='loginPage.html'>Login</a></li>
+            <li><a href='signUpPage.html' >Sign up</a></li>
+        </ul>
+        </div>
+        
+        
+    </head>
+
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        
+        
+        <div id='apple'>
+        <section id='appleSection'>
+            
+            <img  onmouseout = 'normalImage(this)'  onmouseover = 'enlargeImage()' class='image' id='appleMain'  src="images/appleMain.png">
+            
+            <div id='appleText' class='text'>
+            <h2 id='appleTitle'>The Apple</h2>
+            
+        <aricle id='appleArticle'>
+            Indulge in the juiciest and crunchiest of our apples, harvested from the lush sanctuary farms located in the greenest villages in rural Goulburn, Australia. <br>
+Our apples are handpicked by the farm owners themselves, handled not only with care for their products but with love for its consumers, packaged in rosewood boxes and protected with the wool of Alaskan mountain sheep. <br>
+Our apples are not solely a product, but an experience. Each of the pieces are individually tested on Uniliver’s Gold Press for its snappy crunch, infused with cherry blossom enzymes to give its naturally occurring rose red colours and polished with wild boar skin to give its shiny, glimmering coat.
+
+        </aricle>
+        
+        <h4 id='appleLearn'><a href=applePage.html>Learn more</a></h4>
+            </div>
+            
+            
+        </section>
+        </div>
+        
+        <div id='banana'>
+        <section id='banana'>
+            
+        <img onmouseout = 'normalImage(this)'  onmouseover = 'enlargeImage()' class='image' id='bananaMain'src="images/bananaMain.png">
+            
+        <div id='bananaText' class='text'>
+        <h2 id='bananaTitle'>The Banana</h2>
+            
+        <article id='bananaArticle'>
+        Lose yourself while biting into this masterpiece of a fruit, while it enamours your palette with its perfectly soft texture, melting in your mouth with every serving.<br>
+Bred and grown from the deepest and densest jungles in Northern Africa, our bananas are not grown in combs but individually nurtured for it to gain its true nutritional and presentational prowess.<br>
+Each banana is created in a loving yet vigorous procedure including, injecting it with the seeds of other bananas, making it the most powerful Banana we have ever created.<br>
+
+        </article>
+            
+        <h4 id='bananaLearn'>Coming Soon . . . </h4>  
+        </div>
+        
+            
+        </section>
+        </div>
+        
+        <div id='mango'>
+        <section id='mango'>
+            
+        <img onmouseout = 'normalImage(this)'  onmouseover = 'enlargeImage()' class='image' id='mangoMain' src="Images/mangoMain.png">
+          
+        <div id='mangoText' class='text'>
+        <h2 id='mangoTitle'>The Mango</h2>
+            
+            
+        <article id='mangoArticle'>
+            Oh, so pulpy! Our mangoes will make you go crazy with its pulp fashioned with strands of spider monkey cotton. Experience a new form of flavour when you bite into our mango as its ethanol laced molecules burst into your mouth and fuses into your blood stream. <br>
+Each mango has been specially ran through an exclusive process where the atoms of its seed is ionized to radioactive Uranium, allowing the seeds to be used as a souvenior once the mango has been consumed to its fullness. <br>
+
+            </article> 
+            
+        <h4 id='mangoLearn'><a href='mangoPage.html'>Learn more</a></h4>
+ 
+        </div>
+        
+        </section>
+        </div>
+        
+        
+        <footer id='footer'>
+            <div id='footerText'>
+            <p> Created by Ahnaf Bin Azad</p>
+        <p> Contact information: <a href="mailto:ahnaf.azad2020@my.ntu.ac.uk">ahnaf.azad2020@my.ntu.ac.uk</a></p>
+            <ul id='preferences'>
+                <li onclick='increaseFont()' id='fontInc'>A+</li>
+                <li onclick='decreaseFont()' id='fontDec'>A-</li>
+                <li id='changeCol'>Change accents</li>
+                </ul>
+            </div>
+        </footer>
+        
+        
+    </body>
+
+</html>
